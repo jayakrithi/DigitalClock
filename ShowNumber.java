@@ -9,6 +9,8 @@ public class ShowNumber{
     public ShowNumber(int x, int y){
     //int number = n;
     } 
+
+    // Polygon
     Polygon polya = new Polygon();
     Polygon polyb = new Polygon();
     Polygon polyc = new Polygon();
@@ -17,6 +19,7 @@ public class ShowNumber{
     Polygon polyf = new Polygon();
     Polygon polyg = new Polygon();
     int y1, y2, y3, y4, y5 =0;
+
     public void a(Graphics g, int x, int y){
       
         polya.addPoint(x+10,y+10);

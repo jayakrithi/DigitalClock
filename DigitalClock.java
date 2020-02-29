@@ -8,7 +8,8 @@ import java.util.GregorianCalendar;
 public class DigitalClock extends JFrame {
   int x =0; 
   int y =0;
-
+  
+ // ShowNumber Object
   ShowNumber num = new ShowNumber(x,y);
 
     public void paint(Graphics g){
