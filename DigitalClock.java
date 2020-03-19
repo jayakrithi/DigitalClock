@@ -32,7 +32,10 @@ public class DigitalClock extends JFrame {
                 int hour = cal.get(Calendar.HOUR);
                 int second = cal.get(Calendar.SECOND);
                 // Hour
-                num.number(g,170,200, hour);  
+                int minhour = hour%10;
+                int maxhour = hour/10;
+                num.number(g,170,200, minhour);  
+                num.number(g,100,200,maxhour);
                 
                 // Seperation :
                 g.fillOval(250, 230, 20, 20);
