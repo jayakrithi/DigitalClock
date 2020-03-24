@@ -28,7 +28,7 @@ public class ShowNumber{
         polya.addPoint(x+50,y+10);
         polya.addPoint(x+40,y+20);
         polya.addPoint(x+20,y+20);
-        g.setColor(Color.WHITE);
+        g.setColor(Color.GREEN);
         g.fillPolygon(polya); 
         polya.reset();
       
@@ -43,14 +43,14 @@ public class ShowNumber{
         polyb.addPoint(x+50,y+50);
          polyb.addPoint(x+40,y+40);
          polyb.addPoint(x+40,y+20);
-        g.setColor(Color.WHITE);
+        g.setColor(Color.GREEN);
         g.fillPolygon(polyb);
         polyb.reset();
        
     }
 
     public void c(Graphics g, int x, int y){
-        g.setColor(Color.WHITE);
+        g.setColor(Color.GREEN);
         polyc.addPoint(x+50,y+50);
         polyc.addPoint(x+60,y+60);
         polyc.addPoint(x+60,y+80);
@@ -63,7 +63,7 @@ public class ShowNumber{
     }
 
     public void d(Graphics g, int x, int y){
-        g.setColor(Color.WHITE);
+        g.setColor(Color.GREEN);
         polyd.addPoint(x+10,y+90);
         polyd.addPoint(x+20,y+80);
         polyd.addPoint(x+40,y+80);
@@ -76,7 +76,7 @@ public class ShowNumber{
     }
 
     public void e(Graphics g, int x, int y){
-        g.setColor(Color.WHITE);
+        g.setColor(Color.GREEN);
         polye.addPoint(x+10,y+50);
         polye.addPoint(x+20,y+60);
         polye.addPoint(x+20,y+80);
@@ -89,7 +89,7 @@ public class ShowNumber{
     }
 
     public void f(Graphics g, int x, int y){
-        g.setColor(Color.WHITE);
+        g.setColor(Color.GREEN);
         polyf.addPoint(x+10,y+10);
         polyf.addPoint(x+20,y+20);
         polyf.addPoint(x+20,y+40);
@@ -102,7 +102,7 @@ public class ShowNumber{
     }
 
     public void g(Graphics g, int x, int y){
-        g.setColor(Color.WHITE);
+        g.setColor(Color.GREEN);
         polyg.addPoint(x+20,y+40);
         polyg.addPoint(x+40,y+40);
         polyg.addPoint(x+50,y+50);

@@ -15,7 +15,7 @@ public class DigitalClock extends JFrame {
     public void paint(Graphics g){
       // Background of the clock
         
-        g.setColor(Color.BLUE);
+        g.setColor(Color.black);
         g.fillRect(70,100,600,350);
         
 
@@ -62,7 +62,7 @@ public class DigitalClock extends JFrame {
                  // Redraw the background 
                 //  g.drawRect(70,100,300,300);
                
-                 g.setColor(Color.BLUE);                
+                 g.setColor(Color.BLACK);                
                  g.fillRect(70,100,600,350);
                  
                 }
